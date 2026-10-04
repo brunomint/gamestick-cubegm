@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+# nunca versionar conteúdo do cartão
+*.dat
+*.img
+*.iso
+*.bin
+*.cue
+*.pbp
+*.zip
+roms/
+cubegm/
