@@ -82,7 +82,9 @@ cartão/
 | Atari | `atari2600` / `atari5200` / `atari7800` / `atarilynx` | conforme os jogos que já existem na pasta |
 | Arcade | `arcade` / `fbneo` / `mame` / `cps1-3` | `.zip`, `.fba` (romsets com nome exato) |
 
-> **Testado:** PlayStation (`.img`/`.iso`) funciona. Nos outros consoles, a regra é **usar o mesmo formato dos jogos que já funcionam naquela pasta**.
+> **Testado:** PlayStation (`.img`/`.iso`) e Mega Drive (`.zip` e `.smd`) funcionam depois de colocados no índice pelo script. Nos outros consoles, a regra é **usar o mesmo formato dos jogos que já funcionam naquela pasta**.
+>
+> **Traduções e versões modificadas** (hacks, ex.: "Sunset Riders (BR)") podem **não rodar**. Os emuladores do stick são simples, e esses jogos costumam ficar com a tela preta. Prefira as versões originais (USA/Europe/Japan).
 
 ### PlayStation: por que `.cue` não abre
 
@@ -364,7 +366,9 @@ Falta colocar no índice. Rode o script (item 4).
 
 **O jogo aparece, mas não abre.**
 - **PSX:** confira se está em `.img`, `.iso` ou `.pbp`. `.cue` não abre.
-- **Outros consoles:** use o mesmo formato dos jogos que já funcionam naquela pasta. O arquivo também pode estar com defeito, então teste com outro.
+- **Outros consoles:** use o mesmo formato dos jogos que já funcionam naquela pasta.
+- **Tela preta:** comum em traduções feitas por fãs e versões modificadas. Teste a versão original do jogo.
+- **Arquivos que já estavam no cartão mas fora do menu:** o fabricante pode ter deixado esses de fora justamente porque não funcionam. Ao colocá-los no menu, teste cada um e apague os que não abrirem (depois rode o script de novo, para ele tirar as entradas).
 - **Se o stick trava ou reinicia:** veja a alimentação (5V / 2A).
 
 **Tem limite de espaço?**
